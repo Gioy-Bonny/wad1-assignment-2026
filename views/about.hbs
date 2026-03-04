@@ -1,0 +1,87 @@
+{{> menu id="about"}}
+
+<section class="ui center aligned middle aligned segment">
+
+    <h2>About This Project</h2>
+    <p>
+        This project is a simple photo gallery application built using Node.js, Express, and Handlebars.
+        It allows users to view and manage their photo collections in an organized manner.
+    </p>
+    <p>
+        The application features a user-friendly interface,
+        making it easy for users to navigate through their galleries and view their photos.
+        It also includes functionality for adding new photos, creating albums,
+        and organizing photos into different categories.
+    </p>
+
+    <div class="ui three statistics" style="margin-top: 1em;">
+        <div class="statistic">
+            <div class="value">
+                <i class="camera  icon"></i>
+            </div>
+            <div class="label">
+                App Title: <br>
+                {{info.appTitle}}
+            </div>
+        </div>
+        <div class="statistic">
+            <div class="value">
+                <i class="code  icon"></i>
+            </div>
+            <div class="label">
+                App Version: <br>
+                Version {{info.version}}
+            </div>
+        </div>
+        <div class="statistic">
+            <div class="value">
+                <i class="map  icon"></i>
+            </div>
+            <div class="label">
+                Made in: <br>
+                {{info.location}}
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ui container">
+
+        <!-- Prima card in evidenza -->
+        {{#each workingGroup}}
+        {{#if @first}}
+        <div class="ui centered card" style="margin: 2em auto; width: 300px;">
+            <div class="image">
+                <img src="{{image}}">
+            </div>
+            <div class="content">
+                <a class="header">{{fullname}}</a>
+                <div class="description">
+                    {{fullname}} is an {{job}} living in {{city}}.
+                </div>
+            </div>
+        </div>
+        {{/if}}
+        {{/each}}
+
+        <!-- Card successive, 4 per riga -->
+        <div class="ui four stackable cards">
+            {{#each workingGroup}}
+            {{#unless @first}}
+            <div class="ui card">
+                <div class="image">
+                    <img src="{{image}}">
+                </div>
+                <div class="content">
+                    <a class="header">{{fullname}}</a>
+                    <div class="description">
+                        {{fullname}} is an {{job}} living in {{city}}.
+                    </div>
+                </div>
+            </div>
+            {{/unless}}
+            {{/each}}
+        </div>
+
+    </div>
+</section>

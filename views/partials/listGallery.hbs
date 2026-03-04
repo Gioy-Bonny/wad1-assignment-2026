@@ -1,0 +1,29 @@
+{{#if singleGallery.photos}}
+
+<table class="ui unstackable striped table">
+    <thead>
+        <tr>
+            <th>Song</th>
+            <th>Artist</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each singleGallery.photos}}
+        <tr>
+            <td>
+                {{title}}
+            </td>
+            <td>
+                {{photographer}}
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+
+{{else}}
+<h3 class="ui message">
+    Empty gallery!
+</h3>
+
+{{/if}}

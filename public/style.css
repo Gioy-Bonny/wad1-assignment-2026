@@ -1,0 +1,73 @@
+body {
+    background-image: url(/wallpapper.png);
+    background-position: center;
+    background-size: cover;
+    ;
+}
+
+nav.ui.menu {
+    background-color: #1A1D24;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.ui.menu .item {
+    background-color: #1A1D24;
+    color: #E6EAF2 !important;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 12px;
+}
+
+#dashboard:hover,
+#about:hover {
+    background-color: #3A86FF !important;
+    color: white !important;
+}
+
+section.ui.segment {
+    background-color: transparent;
+    color: #E6EAF2 !important;
+    border-radius: 12px;
+}
+
+i {
+    color: #E6EAF2;
+}
+
+.statistic .label {
+    color: #3A86FF !important;
+}
+
+p {
+    font-size: medium;
+    ;
+}
+
+
+
+.ui.header {
+    color: #E6EAF2 !important;
+    text-decoration: underline;
+}
+
+.ui.header #no_galleries {
+    color: #E6EAF2 !important;
+    text-decoration: underline;
+    border: #3b6dcf 5px solid;
+}
+
+#galleries {
+    background-color: #1A1D24;
+    border-radius: 12px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* Le card vanno a capo se non ci stanno nella riga */
+    gap: 20px;
+    /* Spazio tra le card */
+    justify-content: flex-start;
+}

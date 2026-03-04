@@ -1,0 +1,35 @@
+{{> menu id="dashboard"}}
+
+<section class="ui center aligned middle aligned segment">
+
+    <h2>Photo Gallery Dashboard</h2>
+    <p>
+        Photo galleries will be displayed here
+    </p>
+</section>
+<div id="galleries">
+
+    {{#unless galleries}}
+    <h1 class="ui center aligned header" id="no_galleries">Create galleries!</h1>
+    {{/unless}}
+    
+    {{#each galleries}}
+    
+    {{#if photos.length}}
+    <section class="ui center aligned segment" id="gallery">
+        <h1>
+            {{title}}
+        </h1>
+        <h3>
+            <p>Photographer: {{photos.0.photographer}}</p>
+        </h3>
+        <h4>
+            {{photos.length}} photos
+        </h4>
+        <a href="/gallery/{{id}}"> View </a>
+    </section>
+    
+    {{/if}}
+    {{/each}}
+
+</div>

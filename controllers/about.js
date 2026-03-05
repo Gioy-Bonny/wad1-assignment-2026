@@ -3,6 +3,7 @@
 import logger from "../utils/looger.js";
 import appInfo from "../models/app-info.js";
 import creatorStore from "../models/creators-store.js";
+
 const about = {
 
     createView(request, response) {
@@ -18,5 +19,6 @@ const about = {
         response.render("about", viewData);
     }
 };
+
 
 export default about;

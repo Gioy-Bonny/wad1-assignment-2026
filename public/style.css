@@ -45,8 +45,6 @@ p {
     ;
 }
 
-
-
 .ui.header {
     color: #E6EAF2 !important;
     text-decoration: underline;
@@ -70,4 +68,75 @@ p {
     gap: 20px;
     /* Spazio tra le card */
     justify-content: flex-start;
+}
+
+/*About modal Camera icon*/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 60%;
+    max-width: 500px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 60%;
+    max-width: 500px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #bbb;
+}
+
+#mapModal iframe{
+    max-width: 800px;
+}
+
+#cameraButton:hover,
+#mapButton:hover {
+    color: #3b6dcf !important;
 }

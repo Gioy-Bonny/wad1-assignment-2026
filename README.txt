@@ -107,4 +107,4 @@ http://localhost:3000
     without relying on copyrighted material.
 
 The application logic, structure, and implementation of the web
-application were developed by the student.
+application were developed by Gioele Bonini.

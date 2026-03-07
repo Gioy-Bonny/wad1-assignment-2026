@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
         mapModal.style.display = "none"
     })
 })
+document.querySelector("#{{id}}").classList.add("active"); 
 
 
 

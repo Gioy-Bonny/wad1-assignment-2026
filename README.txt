@@ -99,9 +99,7 @@ http://localhost:3000
 -   Improved styling and responsive design
 -   Form validation and error handling
 
-9.  Author Student University Assignment Project
-
-10. AI Generated Content All images and textual content used within this
+9. AI Generated Content All images and textual content used within this
     project were generated using artificial intelligence tools. These
     AI-generated assets were used for demonstration and educational
     purposes only as part of the university assignment. The use of AI

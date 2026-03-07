@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     
     cameraButton.onclick = function () {
         modal.style.display = "block"
-        modalImg.src = "PG_LOGO.png"
+        modalImg.src = "PG_logo.png"
     }
 
     closeBtn.onclick = function () {

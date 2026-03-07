@@ -1,14 +1,16 @@
 {{#if singleGallery.photos}}
 
-<table class="ui unstackable striped table">
+<table class="ui stackable  table">
     <thead>
         <tr>
             <th>Picture</th>
             <th>Phtographer</th>
+            <th>Picture</th>
         </tr>
     </thead>
     <tbody>
         {{#each singleGallery.photos}}
+
         <tr>
             <td>
                 {{title}}
@@ -16,7 +18,11 @@
             <td>
                 {{photographer}}
             </td>
+            <td>
+                <img src="{{image}}" class="pictures">
+            </td>
         </tr>
+
         {{/each}}
     </tbody>
 </table>

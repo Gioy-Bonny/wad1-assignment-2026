@@ -6,18 +6,21 @@
             "photos": [
                 {
                     "id": "04",
-                    "title": "Whispers of Light",
-                    "photographer": "Gioelli"
+                    "title": "Golden Hour Portrait",
+                    "photographer": "Gioelli",
+                    "image":"/galleries-store/GoldenHourPortrait.png"
                 },
                 {
                     "id": "05",
-                    "title": "Eyes That Speak",
-                    "photographer": "Gioelli"
+                    "title": "Urban Confidence",
+                    "photographer": "Gioelli",
+                    "image":"/galleries-store/UrbanConfidence.png"
                 },
                 {
                     "id": "06",
-                    "title": "Power in Stillness",
-                    "photographer": "Gioelli"
+                    "title": "Wisdom in Autumn",
+                    "photographer": "Gioelli",
+                    "image": "/galleries-store/WisdominAutumn.png"
                 }
             ]
         },
@@ -27,18 +30,22 @@
             "photos": [
                 {
                     "id": "07",
-                    "title": "Whispering Hills",
-                    "photographer": "Giorgini"
+                    "title": "Mirror Lake Mountains",
+                    "photographer": "Giorgini",
+                    "image":"/galleries-store/MirrorLakeMountains.png"
                 },
                 {
                     "id": "08",
-                    "title": "Golden Horizon",
-                    "photographer": "Giorgini"
+                    "title": "Sunset Ocean Cliffs",
+                    "photographer": "Giorgini",
+                    "image":"/galleries-store/SunsetOceanCliffs.png"
                 },
                 {
                     "id": "09",
-                    "title": "Tranquil Escape",
-                    "photographer": "Giorgini"
+                    "title": "Misty Forest Sunrise",
+                    "photographer": "Giorgini",
+                    "image":"/galleries-store/MistyForestSunrise.png"
+
                 }
             ]
         },

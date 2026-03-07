@@ -146,7 +146,23 @@ p {
     padding: 40px;
 }
 
-.ui.table, thead{
+.ui.table{
     background-color: #1A1D24;
     color: white;
+    text-align: center;
+    
+}
+thead{
+        font-weight: bolder;
+    font-size: large;
+
+}
+tbody{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.pictures{
+    width: 300px;
+    height: auto;
 }

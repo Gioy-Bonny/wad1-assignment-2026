@@ -132,11 +132,21 @@ p {
     color: #bbb;
 }
 
-#mapModal iframe{
+#mapModal iframe {
     max-width: 800px;
 }
 
 #cameraButton:hover,
 #mapButton:hover {
     color: #3b6dcf !important;
+}
+
+#gallery {
+    background-color: #1A1D24;
+    padding: 40px;
+}
+
+.ui.table, thead{
+    background-color: #1A1D24;
+    color: white;
 }
